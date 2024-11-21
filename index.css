@@ -1,0 +1,231 @@
+.testimonial-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+.testimonial-item h3,
+.testimonial-item h4 {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.testimonial-item h4 {
+    font-size: 0.85rem;
+}
+
+.testimonial-item p {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.stars i {
+    font-size: 0.9rem;
+}
+
+#testimonials {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.testimonial-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+.testimonial-item h3,
+.testimonial-item h4 {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.testimonial-item h4 {
+    font-size: 0.85rem;
+}
+
+.testimonial-item p {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.stars i {
+    font-size: 0.9rem;
+}
+
+.testimonials-header {
+    margin-top: 50px;
+    /* Add top margin to header */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tick-underline {
+    width: 50px;
+    /* Small underline width */
+    height: 4px;
+    /* Thickness of underline */
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    margin-top: 10px;
+    /* Space below header */
+}
+
+.testimonial-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    /* Circle border */
+}
+
+.testimonial-item .stars i {
+    font-size: 1rem;
+}
+
+.testimonial-item p {
+    margin-top: 20px;
+    /* Space between quote and stars */
+}
+
+.testimonials-header {
+    margin-top: 50px;
+    /* Add top margin to header */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tick-underline {
+    width: 50px;
+    /* Small underline width */
+    height: 4px;
+    /* Thickness of underline */
+    background-color: #007bff;
+    margin-top: 10px;
+    /* Space below header */
+}
+
+.testimonial-item {
+    border-radius: 8px;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    /* border: 3px solid #007bff; Circle border */
+    padding: 5px;
+}
+
+.bg-white {
+    background-color: #fff;
+    /* Keep the testimonial cards white */
+}
+
+.stars i {
+    font-size: 1.2rem;
+}
+
+.bi-quote {
+    font-size: 1.5rem;
+}
+
+#stats {
+    padding: 20px 10px;
+    /* Equal padding above and below the section */
+}
+
+#stats .stats-item {
+    font-size: 20px;
+    /* General font size for better readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    /* Equal margin around each stats item */
+}
+
+#stats .stats-item span {
+    display: block;
+    font-size: 50px;
+    /* Larger font size for numbers */
+    font-weight: bold;
+    color: #000;
+    /* Number color */
+    margin-bottom: 10px;
+}
+
+#stats .blue-line {
+    width: 50px;
+    /* Width of the blue line */
+    height: 5px;
+    /* Thickness of the blue line */
+    background-color: #007bff;
+    /* Blue color */
+    margin: 10px 0;
+    /* Space around the blue line */
+}
+
+#stats .stats-item p {
+    font-size: 24px;
+    /* Larger font size for labels */
+    font-weight: 600;
+    color: #555;
+    /* Text color */
+    margin-top: 0;
+    /* Remove margin above the label */
+}
+
+
+
+/* Remove underline from all links */
+.no-underline {
+    text-decoration: none !important;
+}
+
+/* Add hover effect for links */
+.no-underline:hover {
+    color: #007bff !important;
+    /* Bootstrap primary blue */
+}
+
+/* Add spacing between lines */
+.footer-links ul li {
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+/* Social media icons in a circle */
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    /* Light grey background */
+    color: #333;
+    /* Default icon color */
+    font-size: 20px;
+    /* Icon size */
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+.social-icon:hover {
+    background-color: #007bff;
+    /* Bootstrap primary blue on hover */
+    color: #fff;
+    /* White icon color on hover */
+    transform: scale(1.2);
+    /* Enlarge icon slightly */
+}
+
+/* Aligning icons properly */
+.social-links .social-icon {
+    display: inline-flex;
+    margin-right: 10px;
+    /* Spacing between icons */
+    justify-content: center;
+    align-items: center;
+}
+
