@@ -177,6 +177,14 @@
     /* Remove margin above the label */
 }
 
+.navbar-nav .nav-item:hover {
+  color: #ffffff; /* Bootstrap's primary blue */
+  border-radius: 10px; /* Optional: Add border-radius for rounded hover effect */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #387af3; /* Optional: Change text color to white for better visibility */
+}
 
 
 /* Remove underline from all links */
