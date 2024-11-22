@@ -215,7 +215,7 @@ a.text-decoration-none:hover {
 
 /* Hover effect for social icons */
 .social-icon:hover {
-    background-color: #007bff;
+    background-color: #a4bcd6;
     /* Bootstrap primary blue */
     color: #fff;
     /* White icon color on hover */
