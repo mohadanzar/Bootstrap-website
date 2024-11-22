@@ -180,20 +180,17 @@
 
 
 /* Remove underline from all links */
-.no-underline {
+a.text-decoration-none {
     text-decoration: none !important;
+    color: #387af3;
+    /* Default text color */
 }
 
 /* Add hover effect for links */
-.no-underline:hover {
+a.text-decoration-none:hover {
     color: #007bff !important;
     /* Bootstrap primary blue */
-}
-
-/* Add spacing between lines */
-.footer-links ul li {
-    margin-bottom: 10px;
-    /* Adjust as needed */
+    text-decoration: underline;
 }
 
 /* Social media icons in a circle */
@@ -201,31 +198,231 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #f1f1f1;
-    /* Light grey background */
+    background-color: #eaf4fc;
+    /* Light blue background */
     color: #333;
     /* Default icon color */
     font-size: 20px;
     /* Icon size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 0.3s ease;
     /* Smooth transition */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for depth */
 }
 
+/* Hover effect for social icons */
 .social-icon:hover {
     background-color: #007bff;
-    /* Bootstrap primary blue on hover */
+    /* Bootstrap primary blue */
     color: #fff;
     /* White icon color on hover */
     transform: scale(1.2);
     /* Enlarge icon slightly */
 }
 
-/* Aligning icons properly */
-.social-links .social-icon {
-    display: inline-flex;
-    margin-right: 10px;
-    /* Spacing between icons */
-    justify-content: center;
-    align-items: center;
+/* Footer links spacing and alignment */
+.footer-links ul li {
+    margin-bottom: 10px;
+    /* Adjust spacing between list items */
 }
 
+.footer-links ul li a {
+    color: #333;
+    /* Default link color */
+}
+
+/* Hover effect for footer links */
+.footer-links ul li a:hover {
+    color: #007bff !important;
+    /* Bootstrap primary blue */
+}
+
+
+.line {
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+
+#call-to-action-2 .btn-primary {
+  padding: 15px 30px;
+  /* Make button size larger */
+  font-size: 16px;
+  /* Adjust font size */
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#call-to-action-2 .btn-primary:hover {
+  background-color: #7ca2cc;
+  /* Darken the blue on hover */
+  transform: scale(1.05);
+  
+  /* Slightly enlarge the button on hover */
+}
+
+
+/* Set the background color to white when the accordion is open */
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+/* Optional: Add some padding or a shadow effect for better visibility */
+.accordion-button:not(.collapsed) {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Set the background color of the accordion button when collapsed (optional) */
+.accordion-button.collapsed {
+  background-color: #f8f9fa;
+}
+
+
+/* Custom Background Colors */
+.white-bg {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blue-bg {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.white-bg .btn-blue {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.blue-bg .btn-white {
+  background-color: white;
+  color: #007bff;
+  border: none;
+}
+
+.popular-badge {
+  background-color: #ff9900;
+  color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+}
+
+.features-list i {
+  color: #007bff;
+}
+.about .profile .profile-image {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.about .contact-info {
+    padding: 0.5rem 1rem;
+    background-color: var(--surface-color);
+    border-radius: 0.2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+}
+
+.btn-blue,
+.btn-white {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+}
+
+.btn-white:hover {
+  background-color: #f8f9fa;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+      .service-card .icon-hover:hover {
+        transform: scale(1.2);
+        /* Enlarge icon on hover */
+      }
+ 
+      .bg-lightblue {
+        background-color: #e6f7ff;
+        /* Light blue background */
+      }
+
+      .service-card .icon-hover:hover {
+        transform: scale(1.2);
+        /* Enlarge icon on hover */
+      }
+     
+      .services-header {
+        margin-top: 50px;
+        /* Add top margin to header */
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+      }
+
+      .tick-underline {
+        width: 50px;
+        /* Small underline width */
+        height: 4px;
+        /* Thickness of underline */
+        background-color: #007bff;
+        /* Bootstrap primary color */
+        margin-top: 10px;
+        /* Space below header */
+      }
+
+      .bg-lightblue {
+        background-color: #e6f7ff;
+        /* Light blue background */
+      }
+
+      .service-card .icon-hover:hover {
+        transform: scale(1.2);
+        /* Enlarge icon on hover */
+      }
+  
